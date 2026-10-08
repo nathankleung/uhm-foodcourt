@@ -1,0 +1,14 @@
+@import url('https://googleapis.com');
+
+.nav-link {
+    color:black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+@media (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* Prevents a small gap that causes the menu to disappear when moving the mouse */
+  }
+}
