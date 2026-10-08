@@ -1,4 +1,3 @@
-@import url('https://googleapis.com');
 
 .nav-link {
     color:black;
@@ -11,4 +10,60 @@
     display: block;
     margin-top: 0; /* Prevents a small gap that causes the menu to disappear when moving the mouse */
   }
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  color: black;
+}
+
+p a{
+  color: black;
+  text-decoration: underline;
+}
+
+h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  color: rgb(3, 80, 3);
+}
+.row {
+  display: flex;
+  gap: 20px; /* Adds space between the columns */
+}
+
+/* The columns will take up equal width */
+.column {
+  flex: 1; 
+  padding: 15px;
+}
+
+/* Responsive design: stacks the columns on top of each other on mobile screens */
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+.dropdown-menu {
+  padding: 0;
+  margin-top: 5px;
+  list-style: none;
+  border-radius: 6px;
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+}
+
+#navbarDropdown {
+  font-size: 18px;
+}
+.rounded-box {
+  width: 200px;
+  height: 100px;
+  border-radius: 15px; /* Adjust this value for more or less roundness */
+}
+
+.rounded-div {
+  border-radius: 15px; /* Adjust this value for more or less roundness */
+  margin: 10px; /* Optional: adds space around the div */
 }

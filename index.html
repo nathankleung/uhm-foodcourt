@@ -11,52 +11,161 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
+
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container-fluid">
-        <div class="navbar navbar-expand-lg" style="background-color: white; color: black;">
+        <div class="navbar navbar-expand-lg d-flex justify-content-between align-items-center" style="background-color: white; color: black; padding: 10px">
             <div class="nav nav-brand content-justify-start">
                 <img src="Manoa-Dining-Services-Logo.png" alt="UHM Dining Services" href="https://uhm.sodexomyway.com/en-us/" style="height: 100px;">
             </div>
-            <div class="nav nav-brand content-justify-end">
+            <div class="nav content-justify-end">
                 <button class="navbar-toggler border-0 rounded-circle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" style="width: 50px; height: 50px;">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav justify-content-evenly">
                         <!-- Hoverable Dropdown Container -->
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown p-1">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown Menu
+                                LOCATIONS
                             </a>
                             <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
+                        </li>
+
+                        <li class="nav-item dropdown p-1">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                MEAL PLAN
+                            </a>
+                            <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown p-1">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                EXPLORE
+                            </a>
+                            <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                                                <li class="nav-item dropdown p-1">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                GRUB HUB
+                            </a>
+                            <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown p-1">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                WARRIORS HUB
+                            </a>
+                            <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item p-1">
+                             <p><a class="nav-link" href="#">SHOP</a></p>   
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
 
-        <div class="row" style="background-color: #f5fffa">
-            <div class="col-auto text-left">
-                <h1 style="color: black;">Campus Center Food Court</h1>
+        <div class="row" style="background-color: #f5fffa; padding: 10px; margin: 10px">
+
+            <div class="column col-auto text-left d-none d-md-block p-3 content-justify-start">
+                
+                <h1 class="p-3" style="color: black;">Campus Center Food Court</h1>
+
+                <div style="background-color: white; padding: 10px; border-radius: 5px; width: auto; display: inline-block; margin-bottom: 10px;">
+                    <span><svg height="8" width="8" viewBox="0 0 100 100">
+                    <circle cx="50" cy="50" r="50" fill="red" />
+                    </svg> <strong>CLOSED</strong></span>
+                </div>
+                <h3><strong><i>Regular Hours</i></strong></h3>
+                <ul>
+                    <h3>Monday - Friday</h3>
+                    <ul>
+                        <p><strong>07:00AM - 02:00 PM</strong></p>
+                    </ul>
+                    <h3>Monday -Thursday</h3>
+                    <ul>
+                        <p><strong>King's Hawaiian 10:00AM - 03:00 PM</strong></p>
+                    </ul>
+                    <h3>Friday</h3>
+                    <ul>
+                        <p><strong>King's Hawaiian 10:00AM - 02:00 PM</strong></p>
+                    </ul>
+                </ul>
+                <p><i class="bi-geo-alt-fill" style="color: rgb(3, 80, 3);"></i> Campus Center</p>
+                                <p><i class="bi bi-telephone-fill" style="color: rgb(3, 80, 3);"></i> (808) 956-7367</p>
+
             </div>
-            <div class="col-auto text-left">
+
+            <div class="column col-auto text-left p-3 content-justify-start">
+                <div class="container-fluid">
                 <img src="CC-Food-Court-Logo.jpeg">
                 <p>The Campus Center Food Court offers a variety of food including plate lunches, bentos, grab-and-go salads and wraps, burgers, and more!</p>
                 <p>***Campus Center Food Court accepts Bonus Dollars</p>
-                <p></p><a href="#"> <strong>Skip the line with Grubhub Mobile Ordering!</strong></a></p>
+                <p><a href="https://www.grubhub.com/mobile_home"> <strong>Skip the line with Grubhub Mobile Ordering!</strong></a></p>
                 <ol>
                     <li>Download the Grubhub app</li>
-                    <li>Option 2</li>
-                    <li>Option 3</li>
+                    <li>Go to the Campus Dining section on your Grubhub account settings.</li>
+                    <li>Search for University of Hawaii at Mānoa</li>
+                    <li>Log into your Manoa account to pay with your Mānoa OneCard</li>
                 </ol>
+                </div>
             </div>
         </div>
     </div>
+    <div class="container rounded-box justify-content-start" style="background-color: rgb(3, 80, 3); padding: 10px; width: 500px; height: 50px; margin-left: 40px;margin-right: auto;">
+            <p style="color: white; font-size: 20px;">Campus Center Food Court 05 Oct to 09 Oct</p>
+    </div>
+
+    <div class="footer footer-wrapper rounded-div" style="background-color: rgb(3, 80, 3); padding: 10px; margin-left: 10px;">
+        <div class="row">
+            <div class="col-auto justify-content-start">
+                <h1 style="color: white; font-size: 24px;"><strong>CONTACT</strong></h1>
+                <p style="color: white; font-size: 14px;">2573 Dole St, Honolulu, HI, 96822, USA</p>
+                <p style="color: white; font-size: 18px;"> <i class="bi bi-chat-fill me-3"></i>Feedback</p>
+                <p style="color: white; font-size: 18px;"> <i class="bi bi-envelope-fill me-3"></i>Contact or Write to us</p>
+                <p style="color: white; font-size: 18px;"> <i class="bi bi-phone-fill me-3"></i>(808) 956-2190</p>
+                <p style="color: white; font-size: 18px;"> <i class="bi bi-globe2 me-3"></i>University of Hawaii at Manoa</p>
+
+            </div>
+            <div class="col-auto justify-content-end">
+                <p style="color: white; font-size: 24px;"><strong>SOCIAL MEDIA</strong></p>
+                <p style="color: white; font-size: 24px;"> 
+                    <i class="bi bi-facebook me-3"></i>
+                    <i class="bi bi-instagram me-3"></i>
+                    <i class="bi bi-tiktok me-3"></i>
+                </p>
+            </div>
+    </div>
+    <hr>
+    <div class="row">
+    <div class="col container justify-content-start">
+                <p style="color: white; font-size: 14px;">Copyright Sodexo. All rights reserved.</p>
+    </div>
+    <div class="col container justify-content-end">
+                <p style="color: white; font-size: 14px;">Terms & Conditions &nbsp;
+Privacy Policy</p>
+
+    </div>'
 </body>
